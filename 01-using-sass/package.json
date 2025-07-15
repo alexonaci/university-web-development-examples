@@ -1,0 +1,17 @@
+{
+  "name": "01-using-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":   "sass src/scss/main.scss dist/css/main.css --style=compressed",
+    "watch":   "sass src/scss:dist/css --watch",
+    "clean":   "rm -rf dist/css/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

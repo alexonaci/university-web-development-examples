@@ -1,0 +1,82 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: $bg-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+.nav {
+  background: $nav-bg;
+  padding: $spacing-md;
+  @include flex-between;
+  
+  &__brand {
+    color: $nav-text;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  &__links {
+    @include reset-list;
+    @include flex-center;
+    gap: $spacing-xl;
+  }
+  
+  &__link {
+    color: $nav-text;
+    text-decoration: none;
+    padding: $spacing-sm $spacing-md;
+    border-radius: $border-radius;
+    transition: background $transition-speed ease;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: $spacing-xl;
+  text-align: center;
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: $spacing-md;
+    color: $primary-color;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: $spacing-xl;
+    color: $text-color;
+  }
+}
+
+.btn {
+  @include button-style($secondary-color, $secondary-hover);
+  margin: $spacing-sm;
+  
+  &--primary {
+    @include button-style($primary-color, $primary-hover);
+  }
+  
+  &--secondary {
+    @include button-style($secondary-color, $secondary-hover);
+  }
+}
+
+// Button container
+.buttons {
+  margin-top: $spacing-xl;
+}
