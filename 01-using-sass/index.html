@@ -24,6 +24,35 @@
             <button class="btn btn--primary">Primary Button</button>
             <button class="btn btn--secondary">Secondary Button</button>
         </div>
+        
+        <hr>
+
+        <section style="margin: 3rem 0;">
+            <h2>Display: Block vs Inline</h2>
+            <div style="background: #d1e7dd; color: #0f5132; padding: 0.5rem; margin-bottom: 0.5rem;">Block element (div):</div>
+            <div style="background: #b6d4fe; color: #084298; padding: 0.5rem; margin-bottom: 0.5rem;">Another block element (div)</div>
+            <span style="background: #f8d7da; color: #842029; padding: 0.5rem;">Inline element (span)</span>
+            <span style="background: #fff3cd; color: #664d03; padding: 0.5rem;">Another inline element (span)</span>
+            <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #555;">Block elements start on a new line and take full width. Inline elements stay in the flow and only take as much width as needed.</p>
+        </section>
+
+        <section style="margin: 3rem 0; position: relative; min-height: 200px;">
+            <h2>Position: Relative, Absolute, Fixed</h2>
+            <div style="background: #e2e3e5; color: #41464b; padding: 0.5rem; width: 200px; position: relative;">
+                Relative (parent)
+                <div style="background: #cfe2ff; color: #084298; padding: 0.5rem; width: 120px; position: absolute; top: 30px; left: 30px;">
+                    Absolute (child)
+                </div>
+            </div>
+            <div style="background: #f8d7da; color: #842029; padding: 0.5rem; width: 200px; position: fixed; top: 20px; right: 20px; z-index: 1000;">
+                Fixed (always in top-right corner)
+            </div>
+            <p style="margin-top: 5.5rem; font-size: 0.95rem; color: #555;">
+                <strong>Relative:</strong> positioned relative to its normal place.<br>
+                <strong>Absolute:</strong> positioned absolutely to the nearest positioned ancestor (here, the relative div).<br>
+                <strong>Fixed:</strong> positioned relative to the viewport, stays visible when scrolling.
+            </p>
+        </section>
     </main>
 </body>
 </html>

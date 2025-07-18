@@ -1,5 +1,5 @@
-$primary-color: #007bff;
-$primary-hover: #0056b3;
+$primary-color: var(--main-text-color);
+$primary-hover: var(--main-bg-color);
 $secondary-color: #6c757d;
 $secondary-hover: #545b62;
 $nav-bg: #333;
@@ -15,3 +15,17 @@ $spacing-xl: 2rem;
 $border-radius: 4px;
 
 $transition-speed: 0.3s;
+
+
+/* 
+* It's usually better to use CSS variables for theming.
+* They are easier to debug in the browser and can be changed dynamically.
+* Here are some example CSS variables for theming, attached on :root selector.
+
+* Example of javascript that chages a CSS variable (useful for dark/white mode toggling):
+* `document.documentElement.style.setProperty('--main-bg-color', 'white');`
+*/
+:root {
+    --main-bg-color: lightblue;
+    --main-text-color: #007bff;
+}
