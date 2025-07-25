@@ -7,11 +7,12 @@
 - Hoisting behavior
 - Temporal dead zone
 - Best practices for variable declarations
+- this keyword
 
 **Why this matters:** Understanding scope prevents bugs and helps write more predictable JavaScript code.
 
 
 Resources:
-- https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations
 - https://developer.mozilla.org/en-US/docs/Glossary/Scope
 - https://wesbos.com/temporal-dead-zone
