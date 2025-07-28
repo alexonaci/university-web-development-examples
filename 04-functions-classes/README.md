@@ -14,3 +14,4 @@ Resources:
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
