@@ -14,3 +14,4 @@ Resources:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols - more advanced topic but good to know
