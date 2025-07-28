@@ -32,4 +32,3 @@ console.log(city); // New York (remains unchanged due to let’s block scope)
 console.log(hoistedVar); // undefined
 var hoistedVar = 'I am hoisted';
 console.log(hoistedVar); // I am hoisted
-

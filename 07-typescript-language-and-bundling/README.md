@@ -9,3 +9,7 @@
 - Compilation and bundling process
 
 **Why this matters:** TypeScript adds type safety to JavaScript, making code more reliable and easier to maintain in large applications.
+
+Very high quality resource:
+
+https://www.totaltypescript.com/books/total-typescript-essentials

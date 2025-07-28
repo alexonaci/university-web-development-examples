@@ -1,4 +1,4 @@
-// function declarations vs expressions
+// function declarations vs expressions, first-class function
 
 // Function Declaration
 function add(a, b) {

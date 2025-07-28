@@ -15,3 +15,9 @@
 Resources:
 - https://developer.mozilla.org/en-US/docs/Glossary/Primitive
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

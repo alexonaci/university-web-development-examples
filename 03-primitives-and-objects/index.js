@@ -11,8 +11,16 @@ const undefinedValue = undefined; // Undefined
 const symbolValue = Symbol('unique'); // Symbol
 const bigIntValue = BigInt(12345678901234567890); // BigInt
 
+// 'asd'.toUpperCase(); // converts to new String('asd').toUpperCase() - this is an example of boxing
+
+// // unboxing/boxing
+
+// Boolean(1); // Converts number to boolean
+// Number('123'); // Converts string to number
+// String(123); // Converts number to string
+
 // Reference Types - immutable
-const array = [1, 2, 3]; // Array
+const array = [1, 2, 3, {}, '']; // Array, 
 const object = { key: 'value' }; // Object
 const date = new Date(); // Date
 const regex = /abc/; // Regular Expression

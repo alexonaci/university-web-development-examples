@@ -53,7 +53,8 @@ fetchDataPromise()
 // async/await syntax
 async function fetchDataAsync() {
     const data = await fetchDataPromise();
-    return data;
+    const dataJson = await data.json();
+    return dataJson;
 }   
 
 async function processDataAsync(data) {
@@ -84,3 +85,16 @@ async function main() {
         console.error('Error:', error);
     }
 }
+
+
+(() => {
+
+    //closure
+   console.log(1);
+})();
+
+function main() {
+    // my whole logic
+}
+
+main();

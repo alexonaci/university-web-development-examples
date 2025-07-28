@@ -19,7 +19,6 @@ const demoArr = [
   {id: 6, color: 'crimson', height: 7, width: 8, distance: 16},
 ];
 
-
 console.log(pluck(demoArr, 'color'));  // => ['red', 'green', 'turqoize' .......];
 
 /*
