@@ -14,3 +14,4 @@
 - https://www.youtube.com/watch?v=mds2CdiEEO0 (Closure, Scope & Execution Context 3)
 - https://www.youtube.com/watch?v=5WEIs-tPUkQ (Closure, Scope & Execution Context 4)
 - https://frontendmasters.com/courses/javascript-hard-parts-v2/ (full course from Will Sentance, but requires subscription)
+- https://flaviocopes.com/javascript-memoization/
